@@ -465,8 +465,8 @@ span.field-validation-error span {
     display: block;
     padding: 0;
     height: 100vh;
-    height: 100svh;
     max-height: 100svh;
+    height: 100svh;
    height: -webkit-fill-available;
     border: 1px solid green ;
   }
