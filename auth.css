@@ -461,17 +461,14 @@ span.field-validation-error span {
   }
 body{
   height: -webkit-fill-available;
-
-  border: 1px solid red ;
 }
   .minthr-auth {
     background: #fff;
     display: block;
     padding: 0;
-      border: 1px solid green ;
-       height: 100vh;
+    height: 100vh;
     height: 100svh;
-      overflow: hidden;
+  
   }
 
   .minthr-auth-box {
