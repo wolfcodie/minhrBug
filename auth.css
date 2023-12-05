@@ -469,6 +469,8 @@ body{
     display: block;
     padding: 0;
       border: 1px solid red ;
+       height: 100vh;
+    height: 100svh;
   }
 
   .minthr-auth-box {
