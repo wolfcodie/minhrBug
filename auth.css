@@ -471,6 +471,7 @@ body{
       border: 1px solid green ;
        height: 100vh;
     height: 100svh;
+      overflow: hidden;
   }
 
   .minthr-auth-box {
