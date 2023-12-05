@@ -472,7 +472,7 @@ span.field-validation-error span {
     box-shadow: none;
     padding: calc(var(--unit) * 68) calc(var(--unit) * 23);
     padding-bottom: calc(var(--unit) * 23);
-    max-height: 100vh;
+    height: 90vh;
     height: -webkit-fill-available;
     overflow: auto;
   }
