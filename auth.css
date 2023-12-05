@@ -473,7 +473,7 @@ body{
 
   .minthr-auth-box {
     border-radius: 0;
-      border: 1px solid green ;
+   
     background: #fff;
     box-shadow: none;
     padding: calc(var(--unit) * 68) calc(var(--unit) * 23);
