@@ -508,7 +508,7 @@ span.field-validation-error span {
   }
 
   .form-container .form-btn {
-  
+    margin-top: 10px;
     margin-bottom: 0;
   }
 }
