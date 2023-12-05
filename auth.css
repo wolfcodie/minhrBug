@@ -475,7 +475,7 @@ body{
     box-shadow: none;
     padding: calc(var(--unit) * 68) calc(var(--unit) * 23);
     padding-bottom: calc(var(--unit) * 23);
-    height: 90vh;
+    height: 100vh;
     overflow-Y: hidden;
   }
 
