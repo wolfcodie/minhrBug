@@ -462,15 +462,18 @@ span.field-validation-error span {
 body{
   height: -webkit-fill-available;
   overflow:hidden;
+  border: 1px solid red ;
 }
   .minthr-auth {
     background: #fff;
     display: block;
     padding: 0;
+      border: 1px solid red ;
   }
 
   .minthr-auth-box {
     border-radius: 0;
+      border: 1px solid green ;
     background: #fff;
     box-shadow: none;
     padding: calc(var(--unit) * 68) calc(var(--unit) * 23);
