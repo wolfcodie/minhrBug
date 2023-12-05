@@ -474,7 +474,7 @@ span.field-validation-error span {
     padding-bottom: calc(var(--unit) * 23);
     height: 90vh;
     border : 1px solid red;
-    overflow: auto;
+    overflow: hidden;
   }
 
   .minthr-logo {
