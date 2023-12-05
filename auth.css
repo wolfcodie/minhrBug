@@ -468,11 +468,11 @@ span.field-validation-error span {
     height: 100svh;
    height: -webkit-fill-available;
     border: 1px solid green ;
+    overflow: hidden;
   }
 
   .minthr-auth-box {
     border-radius: 0;
-   
     background: #fff;
     box-shadow: none;
     padding: calc(var(--unit) * 68) calc(var(--unit) * 23);
