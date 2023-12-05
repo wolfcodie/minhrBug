@@ -468,7 +468,7 @@ span.field-validation-error span {
     max-height: 100svh;
     height: 100svh;
    height: -webkit-fill-available;
-    border: 1px solid green ;
+
     overflow: auto;
   }
 
@@ -482,7 +482,7 @@ span.field-validation-error span {
     height: 100svh;
     max-height: 100svh;
     overflow: auto;
-    border: 1px solid red ;
+ 
   }
 
   .minthr-logo {
