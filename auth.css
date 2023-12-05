@@ -467,7 +467,7 @@ span.field-validation-error span {
     height: 100vh;
     height: 100svh;
    height: -webkit-fill-available;
-    border: 1px solid red ;
+    border: 1px solid green ;
   }
 
   .minthr-auth-box {
