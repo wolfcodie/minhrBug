@@ -473,7 +473,7 @@ span.field-validation-error span {
     padding: calc(var(--unit) * 68) calc(var(--unit) * 23);
     padding-bottom: calc(var(--unit) * 23);
     height: 90vh;
-    
+    border : 1px solid red;
     overflow: auto;
   }
 
