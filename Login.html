@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)https://dk.minthr.com/account/login -->
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://dk.minthr.com/theme/assets/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://dk.minthr.com/theme/assets/icons/favicon-16x16.png"
+    />
+    <title>Login</title>
+
+    <link rel="stylesheet" href="./auth.css" />
+  </head>
+
+  <body class="minthr-auth minthr-login" cz-shortcut-listen="true">
+    <div class="minthr-auth-box">
+      <div class="form-container">
+        <a href="https://dk.minthr.com/"
+          ><img class="minthr-logo" src="./main-logo.svg" alt=""
+        /></a>
+
+        <p class="form-title">Welcome to your personal space</p>
+
+        <form
+          action="https://dk.minthr.com/account/login"
+          method="post"
+          class="form"
+        >
+          <div class="form-group">
+            <label>Identifier</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Identifier"
+              required=""
+              data-val="true"
+              data-val-required="This field is required"
+              id="Email"
+              name="Email"
+              value=""
+            />
+            <span
+              class="field-validation-valid"
+              data-valmsg-for="Email"
+              data-valmsg-replace="true"
+            ></span>
+          </div>
+          <div class="form-group">
+            <label>Password</label>
+            <input
+              type="password"
+              class="form-control"
+              placeholder="Password"
+              required=""
+              data-val="true"
+              data-val-required="This field is required"
+              id="Password"
+              name="Password"
+            />
+            <span
+              class="field-validation-valid"
+              data-valmsg-for="Password"
+              data-valmsg-replace="true"
+            ></span>
+          </div>
+          <div class="form-row">
+            <a
+              class="lost-password"
+              href="https://dk.minthr.com/account/forgetpassword"
+            >
+              Forgot your password?
+            </a>
+          </div>
+          <button class="form-btn" type="submit">Log in</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
