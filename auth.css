@@ -459,9 +459,7 @@ span.field-validation-error span {
   :root {
     --unit: 0.24132vw;
   }
-body{
-  height: -webkit-fill-available;
-}
+
   .minthr-auth {
     background: #fff;
     display: block;
@@ -482,6 +480,7 @@ body{
     height: 100vh;
     height: 100svh;
     overflow: auto;
+    border: 1px solid red ;
   }
 
   .minthr-logo {
