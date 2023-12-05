@@ -461,7 +461,7 @@ span.field-validation-error span {
   }
 body{
   height: -webkit-fill-available;
-  overflow:hidden;
+
   border: 1px solid red ;
 }
   .minthr-auth {
@@ -478,8 +478,9 @@ body{
     box-shadow: none;
     padding: calc(var(--unit) * 68) calc(var(--unit) * 23);
     padding-bottom: calc(var(--unit) * 23);
-    height: 90vh;
-    overflow-Y: hidden;
+    height: 100vh;
+    height: 100svh;
+    overflow: hidden;
   }
 
   .minthr-logo {
